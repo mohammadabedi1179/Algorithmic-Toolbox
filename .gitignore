@@ -8,3 +8,8 @@
 *.rb
 *.rs
 *.scala
+*.xml
+*.iml
+*.json
+*.ipynb
+*.pyc
