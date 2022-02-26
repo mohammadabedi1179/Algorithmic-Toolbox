@@ -1,0 +1,24 @@
+if __name__ == '__main__':
+    num_keys = int(input())
+    input_keys = list(map(int, input().split()))
+    assert len(input_keys) == num_keys
+
+    num_queries = int(input())
+    input_queries = list(map(int, input().split()))
+    assert len(input_queries) == num_queries
+
+    for q in input_queries:
+        print(binary_search(input_keys, q), end=' ')
+
+
+
+
+n=int(input("n"))
+q=[]
+for i in range(n):
+    q.append(int(input("q")))
+k=[]
+m=int(input("m"))
+for i in range(m):
+    k.append(int(input("k")))
+print(binary_search(k,q))
